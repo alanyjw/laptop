@@ -119,9 +119,14 @@ tap "caskroom/fonts"
 tap "git-duet/tap"
 
 # Casks
+cask "1password"
 cask "alfred"
+cask "arq"
 cask "caffeine"
+cask "disk-inventory-x"
 cask "docker"
+cask "dropbox"
+cask "evernote"
 cask "firefox"
 cask "flux"
 cask "flycut"
@@ -134,10 +139,13 @@ cask "iterm2"
 cask "java"
 cask "licecap"
 cask "slack"
+cask "spotify"
 cask "spectacle"
+cask "telegram"
 cask "the-unarchiver"
 cask "vagrant"
 cask "virtualbox"
+cask "whatsapp"
 
 # Unix
 brew "autojump"
@@ -168,6 +176,9 @@ brew "imagemagick"
 
 # Testing
 brew "qt@5.5" if MacOS::Xcode.installed?
+
+# Mac Apple Store
+brew "mas"
 
 # Programming language prerequisites and package managers
 brew "libyaml" # should come after openssl
